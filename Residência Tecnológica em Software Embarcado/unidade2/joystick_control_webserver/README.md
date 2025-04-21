@@ -63,7 +63,6 @@ cd EmbarcaTech/Residência\ Tecnológica\ em\ Software\ Embarcado/unidade2/joyst
    - Status dos botões
 
 ## 🖼️ Demonstração
-*(Adicione aqui GIF/screenshot da interface em funcionamento)*
 
 
 
