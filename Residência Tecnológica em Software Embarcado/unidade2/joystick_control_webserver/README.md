@@ -10,7 +10,7 @@
 
 ## 🛠️ Tecnologias
 <p align="left">
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32">
+  <img src="https://img.shields.io/badge/PICOW-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32">
   <img src="https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino IDE">
   <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=websocket&logoColor=white" alt="WebSocket">
   <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js">
