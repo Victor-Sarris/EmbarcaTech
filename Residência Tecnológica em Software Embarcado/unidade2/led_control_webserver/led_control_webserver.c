@@ -41,17 +41,37 @@ static err_t tcp_server_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, er
         return ERR_OK;
     }
 
-    // Atualiza leituras
-    read_inputs();
+    read_inputs(); // Atualiza os dados
 
-    // Cria resposta JSON
-    char response[256];
+    char response[1024];
     snprintf(response, sizeof(response),
         "HTTP/1.1 200 OK\r\n"
-        "Content-Type: application/json\r\n"
+        "Content-Type: text/html\r\n"
         "\r\n"
-        "{\"buttons\":{\"A\":%d,\"B\":%d},\"temperature\":%.2f}",
-        button_a_status, button_b_status, temperature
+        "<!DOCTYPE html>"
+        "<html lang='pt-BR'>"
+        "<head>"
+        "<meta charset='UTF-8'>"
+        "<title>Status do Pico</title>"
+        "<style>"
+        "body { background-color: #d0e8f2; font-family: Arial; text-align: center; padding: 40px; }"
+        ".container { border: 2px solid #333; padding: 20px; border-radius: 10px; display: inline-block; background: #fff; }"
+        "h1 { color: #003366; }"
+        "p { font-size: 20px; }"
+        ".status { font-weight: bold; color: green; }"
+        "</style>"
+        "</head>"
+        "<body>"
+        "<div class='container'>"
+        "<h1>Status do Raspberry Pi Pico</h1>"
+        "<p>Botão A: <span class='status'>%s</span></p>"
+        "<p>Botão B: <span class='status'>%s</span></p>"
+        "<p>Temperatura: <span class='status'>%.2f °C</span></p>"
+        "</div>"
+        "</body></html>",
+        button_a_status ? "Pressionado" : "Solto",
+        button_b_status ? "Pressionado" : "Solto",
+        temperature
     );
 
     tcp_write(tpcb, response, strlen(response), TCP_WRITE_FLAG_COPY);
@@ -60,6 +80,7 @@ static err_t tcp_server_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, er
     pbuf_free(p);
     return ERR_OK;
 }
+
 
 // Callback para aceitar conexões
 static err_t tcp_server_accept(void *arg, struct tcp_pcb *newpcb, err_t err) {
