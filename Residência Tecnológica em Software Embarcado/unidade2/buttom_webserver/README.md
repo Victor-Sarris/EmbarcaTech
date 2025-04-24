@@ -1,20 +1,35 @@
+# 📦 Projeto: `buttom_webserver`
 
-Este projeto faz parte da Residência Tecnológica em Software Embarcado (Unidade 2) e tem como objetivo o controle de um LED através de um servidor web, utilizando o microcontrolador ESP32.
+Este projeto faz parte da **Unidade 2 da Residência Tecnológica em Software Embarcado** e demonstra como **monitorar o estado de um botão físico utilizando um servidor web embarcado**, com interface HTML estilizada.
 
-🔧 Tecnologias e Ferramentas Utilizadas:
-- Pico W
-- Linguagem C
-- WebServer com HTML integrado
-# ⚙️ Funcionalidade:
-O projeto configura um servidor web no ESP32 que permite ao usuário ligar e desligar um LED remotamente através de uma interface HTML acessível via navegador. O servidor responde às requisições GET e atualiza o estado do LED conforme o botão clicado pelo usuário na página web.
+## 🔧 Tecnologias Utilizadas
+- ✅ Raspberry Pi Pico W (modelo 2)
+- ✅ Linguagem C (usando o SDK oficial da Raspberry Pi)
+- ✅ Servidor HTTP básico
+- ✅ HTML com estilização embutida
 
-📁 Estrutura Principal:
-main.py: Script principal que inicia o servidor web e define o comportamento do LED com base nas requisições HTTP.
+## 🧠 Objetivo
+Permitir a leitura do estado de um botão físico conectado à Pico W, com exibição em tempo real (via atualização manual da página) por meio de uma **interface web hospedada diretamente no microcontrolador**.
 
-boot.py: Configurações iniciais do ESP32 ao iniciar, como conexão à rede Wi-Fi.
+## ⚙️ Funcionalidades
+- Leitura digital do botão (pressionado ou não).
+- Servidor web embarcado com resposta em HTML.
+- Interface amigável e estilizada.
+- Página acessível via navegador conectado à mesma rede Wi-Fi da placa.
 
-html_page: Código HTML embutido que gera a interface da página web.
+## 🌐 Interface Web
+A página web exibe dinamicamente o estado do botão com estilo visual simples, facilitando o entendimento e acompanhamento do funcionamento do hardware.
 
-📡 Conectividade:
-O ESP32 conecta-se a uma rede Wi-Fi local e disponibiliza um IP. Através desse IP, qualquer dispositivo conectado à mesma rede pode acessar o painel de controle do LED via navegador.
+## 📁 Estrutura do Projeto
+- `main.c`: Código principal, responsável por configurar o botão e o servidor web.
+- `index_html.h`: Arquivo contendo o HTML da página web embutido como string em C.
 
+## ▶️ Como Usar
+1. Compile o projeto usando o SDK do Raspberry Pi Pico com suporte à rede (Pico W).
+2. Conecte a Pico W a uma rede Wi-Fi (informações no `main.c`).
+3. Acesse o IP exibido via serial para visualizar o estado do botão no navegador.
+
+## 📸 Demonstração
+![image](https://github.com/user-attachments/assets/6b8a974c-ced7-4b9b-bfa5-694591182232)
+
+> Projeto desenvolvido durante a **Residência Tecnológica em Software Embarcado**, com foco em integração de hardware e redes em sistemas embarcados.
