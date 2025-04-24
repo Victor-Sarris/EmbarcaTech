@@ -43,6 +43,7 @@ cd EmbarcaTech/Residência Tecnológica em Software Embarcado/unidade2/led_contr
 ```
 
 ## 🖼️ Preview
+![image](https://github.com/user-attachments/assets/4281b222-6668-4683-8526-687963ff9756)
 
 ## 📝 Licença
 Este projeto está sob licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
