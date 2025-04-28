@@ -64,6 +64,10 @@ cd EmbarcaTech/Residência\ Tecnológica\ em\ Software\ Embarcado/unidade2/joyst
 
 ## 🖼️ Demonstração
 
+![image](https://github.com/user-attachments/assets/53624349-8268-495d-bf83-6c1f7218d607)
+
+![image](https://github.com/user-attachments/assets/aa69e7fe-9b89-46be-a0ce-02611ee0d55c)
+
 
 
 ## 📝 Licença
