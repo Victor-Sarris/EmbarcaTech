@@ -5,8 +5,6 @@
 - Leitura analógica de eixos X/Y do joystick
 - Controle remoto via interface web responsiva
 - Visualização em tempo real da posição do joystick
-- Botões digitais programáveis
-- Comunicação WebSocket para atualização em tempo real
 
 ## 🛠️ Tecnologias
 <p align="left">
@@ -35,9 +33,8 @@ joystick_control_webserver/
 ```
 
 ## 🔌 Hardware Necessário
-- Placa ESP32 ou ESP8266
+- Placa Pico W
 - Módulo Joystick Analógico (e.g., KY-023)
-- Protoboard e jumpers
 - Fonte de alimentação 5V
 
 ## 💻 Como Executar
@@ -49,13 +46,13 @@ git clone https://github.com/Victor-Sarris/EmbarcaTech.git
 cd EmbarcaTech/Residência\ Tecnológica\ em\ Software\ Embarcado/unidade2/joystick_control_webserver
 
 # Carregue o firmware na Arduino IDE:
-# 1. Selecione a placa ESP32
+# 1. Selecione a placa Pico W
 # 2. Configure as credenciais WiFi em wifi_config.h
 # 3. Faça o upload do código
 ```
 
 ## 🌐 Acesso à Interface
-1. Conecte-se à rede WiFi criada pelo ESP32
+1. Conecte-se à rede WiFi criada pelo Pico W
 2. Acesse no navegador: `http://joystick-control.local` ou IP do dispositivo
 3. Interface mostrará:
    - Gráfico de posição do joystick
@@ -76,4 +73,4 @@ Distribuído sob licença MIT. Veja [LICENSE](LICENSE) para detalhes.
 ---
 
 **Desenvolvido por** [Victor Sarris](https://github.com/Victor-Sarris)  
-*Projeto acadêmico - EmbarcaTech 2023*
+*Projeto acadêmico - EmbarcaTech 2025*
