@@ -12,6 +12,10 @@
   <img src="https://img.shields.io/badge/HTML-00979D?style=for-the-badge&logo=HTML&logoColor=white" alt="HTML">
 </p>
 
+## 📁 Estrutura do Projeto
+- `main.c`: Código principal, responsável por configurar o botão e o servidor web.
+- `index_html.h`: Arquivo contendo o HTML da página web embutido como string em C.
+
 
 ## 🔌 Hardware Necessário
 - Placa Pico W
