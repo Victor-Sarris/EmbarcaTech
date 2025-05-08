@@ -9,28 +9,9 @@
 ## 🛠️ Tecnologias
 <p align="left">
   <img src="https://img.shields.io/badge/PICOW-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32">
-  <img src="https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino IDE">
-  <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=websocket&logoColor=white" alt="WebSocket">
-  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML-00979D?style=for-the-badge&logo=HTML&logoColor=white" alt="HTML">
 </p>
 
-## 📦 Estrutura do Projeto
-```
-joystick_control_webserver/
-├── firmware/
-│   ├── joystick_control.ino  # Lógica principal
-│   ├── websocket_server.h    # Configuração WebSocket
-│   └── wifi_config.h         # Credenciais WiFi
-├── web_interface/
-│   ├── index.html            # Interface de controle
-│   ├── dashboard.js          # Visualização dos dados
-│   ├── style.css             # Estilos CSS
-│   └── favicon.ico           # Ícone da página
-├── schematics/               # Diagramas elétricos
-│   └── joystick_wiring.png   # Esquema de conexões
-└── README.md                 # Documentação
-```
 
 ## 🔌 Hardware Necessário
 - Placa Pico W
@@ -66,9 +47,6 @@ cd EmbarcaTech/Residência\ Tecnológica\ em\ Software\ Embarcado/unidade2/joyst
 ![image](https://github.com/user-attachments/assets/aa69e7fe-9b89-46be-a0ce-02611ee0d55c)
 
 
-
-## 📝 Licença
-Distribuído sob licença MIT. Veja [LICENSE](LICENSE) para detalhes.
 
 ---
 
