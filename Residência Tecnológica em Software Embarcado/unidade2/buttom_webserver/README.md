@@ -33,3 +33,7 @@ A página web exibe dinamicamente o estado do botão com estilo visual simples, 
 ![image](https://github.com/user-attachments/assets/6b8a974c-ced7-4b9b-bfa5-694591182232)
 
 > Projeto desenvolvido durante a **Residência Tecnológica em Software Embarcado**, com foco em integração de hardware e redes em sistemas embarcados.
+
+---
+**Desenvolvido por** [Victor Sarris](https://github.com/Victor-Sarris)  
+*Projeto acadêmico - EmbarcaTech 2025*
