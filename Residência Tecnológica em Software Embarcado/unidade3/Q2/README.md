@@ -1,8 +1,8 @@
-# ⚙️ Controle de LED com sensor de luminosidade
+# ⚙️ Controle de LED com sensor de humidade e temperatura
 *Projeto de automação com BitDogLab e sensor de temperatura – Residência Tecnológica em Software Embarcado (Unidade 3)*
 
 ## 🚀 Funcionalidades  
-- Detectação da temperatura e humidade da ambiente
+- Detectação da temperatura e humidade do ambiente
 - Mostra o resultado da leitura dos dados no display OLED da placa
 - Os dados são exibidos em tempo real  
 
@@ -22,3 +22,9 @@
 ## 🖼️ Demonstração
 
 <img src="temp1.jpg" alt="imagem de demonstração">
+
+<br>
+<br>
+
+**Desenvolvido por** [Victor Sarris](https://github.com/Victor-Sarris)  
+*Projeto acadêmico - EmbarcaTech 2025*

@@ -34,3 +34,8 @@ Estado do LED indicador
 ![Imagem do WhatsApp de 2025-07-08 à(s) 18 36 13_5242d512](https://github.com/user-attachments/assets/438a3a0e-5471-40cd-aaff-11adf5d8f2f1)
 
 
+<br>
+<br>
+
+**Desenvolvido por** [Victor Sarris](https://github.com/Victor-Sarris)  
+*Projeto acadêmico - EmbarcaTech 2025*
