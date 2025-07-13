@@ -16,6 +16,7 @@
 - BitDogLab 
 - Sensor de Luminosidade PIR (e.g., HC-SR501)
 - LED indicador
+- Display OLED
 
 
 Estado do LED indicador
