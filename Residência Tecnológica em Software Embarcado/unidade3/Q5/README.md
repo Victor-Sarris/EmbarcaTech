@@ -1,4 +1,4 @@
-# ⚙️ Controle e Monitoramento de Movimento com MPU6050
+# ⚙️ Capitação de distância com VL53L0X
 *Projeto de automação com BitDogLab e sensor de disntância – Residência Tecnológica em Software Embarcado (Unidade 3)*
 
 ## 🚀 Funcionalidades  
