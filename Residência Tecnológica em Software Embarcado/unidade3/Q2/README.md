@@ -1,4 +1,4 @@
-# ⚙️ Controle de LED com sensor de humidade e temperatura
+# ⚙️ Controle de LED com sensor de umidade e temperatura
 *Projeto de automação com BitDogLab e sensor de temperatura – Residência Tecnológica em Software Embarcado (Unidade 3)*
 
 ## 🚀 Funcionalidades  
